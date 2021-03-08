@@ -486,6 +486,7 @@ void raytracing(uint8_t *pixels, color background_color,
                     b += object_color[2];
                 } else {
                     r += background_color[0];
+		    r += 100;	//added
                     g += background_color[1];
                     b += background_color[2];
                 }
